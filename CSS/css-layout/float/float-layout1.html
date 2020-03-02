@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS float-layout1</title>
+</head>
+<link rel="stylesheet" href="float-layout1.css">
+<body>
+    <h1>float-layout1</h1>
+    <br>
+    <h3>ITEM1만 float:right</h3>
+    <div class="container">
+        <div class="item" id="item1">ITEM1</div>
+        <div class="item" id="item2">ITEM2</div>
+        <div class="item" id="item3">ITEM3</div>
+        <div class="item" id="item4">ITEM4</div>        
+    </div>
+    
+    <h3>모든 ITEM float:right</h3>
+    <div class="container">
+        <div class="item" id="item5">ITEM1</div>
+        <div class="item" id="item6">ITEM2</div>
+        <div class="item" id="item7">ITEM3</div>
+        <div class="item" id="item8">ITEM4</div>
+    </div>
+
+    <h3>ITEM1만 float:left</h3>
+    <br>
+    <p>기존 흐름은 무시하기 때문에 ITEM2 위에 덮어버림</p>
+    <div class="container">
+        <div class="item" id="item9">ITEM1</div>
+        <div class="item" id="item10">ITEM2</div>
+        <div class="item" id="item11">ITEM3</div>
+        <div class="item" id="item12">ITEM4</div>
+    </div>
+
+</body>
