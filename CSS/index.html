@@ -17,17 +17,17 @@
         nav{
             background-color: blueviolet;
             border : 2px solid black;
-            width : 200px;
-            height : 500px;
+            width : 10%;
+            height : 100%;
             float: left;
         }
 
         section{
             background-color: bisque;
             border: 2px solid black;
-            width:500px;
+            width:80%;
             float: left;
-            height: 1500px;
+            height: 100%;
         }
 
         aside {
@@ -42,6 +42,16 @@
             width : 50px;
             position: fixed;
             
+        }
+        .content__box__prop{
+            padding: 10px;
+            border : 1px solid blue;
+            float : left;
+        }
+        .content__box__brief{
+            padding: 10px;
+            border : 1px solid blue;
+            float : left;
         }
 
     </style>
@@ -60,8 +70,24 @@
     
     <section>
         <article>
-            <div>
+            <!--
+                CSS 네이밍
+                content : 글
 
+            -->
+
+            <!-- 글 헤더 -->
+            <div class="content__header">CSS 텍스트</div>
+            <div class="content__box">
+                <div class="content__box__prop">
+                    color
+                </div>
+                <div class="content__box__brief">
+                    텍스트의 색상 설정
+                </div>
+                <div class="content__box__detail">
+
+                </div>
             </div>
         </article>
     </section>
