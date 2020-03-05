@@ -43,6 +43,9 @@
             position: fixed;
             
         }
+        .content__box{
+            clear: both;
+        }
         .content__box__prop{
             padding: 10px;
             border : 1px solid blue;
@@ -52,6 +55,7 @@
             padding: 10px;
             border : 1px solid blue;
             float : left;
+            width: auto;
         }
 
     </style>
@@ -69,27 +73,42 @@
     </nav>
     
     <section>
+        <!--
+            CSS 네이밍
+            content : 글
+
+        -->
         <article>
-            <!--
-                CSS 네이밍
-                content : 글
-
-            -->
-
             <!-- 글 헤더 -->
             <div class="content__header">CSS 텍스트</div>
-            <div class="content__box">
-                <div class="content__box__prop">
-                    color
-                </div>
-                <div class="content__box__brief">
-                    텍스트의 색상 설정
-                </div>
-                <div class="content__box__detail">
+            <div>
+                <div class="content__box">
+                    <div class="content__box__prop">
+                        color
+                    </div>
+                    <div class="content__box__brief">
+                        텍스트의 색상 설정
+                    </div>
+                    <div class="content__box__detail">
 
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="content__box">
+                    <div class="content__box__prop">
+                        color-asdasdasdasd
+                    </div>
+                    <div class="content__box__brief">
+                        testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+                    </div>
+                    <div class="content__box__detail">
+
+                    </div>
                 </div>
             </div>
         </article>
+
     </section>
 
     <aside>
