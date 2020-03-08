@@ -43,30 +43,38 @@
             position: fixed;
             
         }
-        .content__box{
-            overflow:auto;
+        .content{
+
         }
-        .content__box__prop{
-            padding: 10px;
-            border : 1px solid blue;
-            float : left;
-            width: auto;
+        .content__item2{
+            display : flex;
+            border : 2px solid black;
         }
-        .content__box__brief{
-            padding: 10px;
-            border : 1px solid blue;
-            float : left;
-            width: auto;
+        .item2__prop, .item2__brief, .item2__more{
+            margin : 10px;
+            border : 2px solid black;
+        }
+        .item2__brief{
+            flex : 5;
+        }
+        .item2__prop{
+            flex : 1;
+        }
+        .content__detail{
+            border: 2px solid black;
+        }
+        .content__detail *{
+            margin: 10px;
+        }
+        .detail__content{
             
-        }
-        .content__box__detail{
-            border : 1px solid gray;
-        }
-        .clearfix{
-            clear:both;
         }
 
     </style>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
 </head>
 <body>
 
@@ -86,39 +94,52 @@
             content : 글
 
         -->
-        <article>
-            <!-- 글 헤더 -->
-            <div class="content__header">CSS 텍스트</div>
-            <div>
-                <div class="content__box clearfix">
-                    <div class="content__box__prop">
-                        color
-                    </div>
-                    <div class="content__box__brief">
-                        텍스트의 색상 설정
-                    </div>
-                    <div class="content__box__detail clearfix">
-                        <div>내용 글</div>
-                        <div>예제</div>
-                        <div>브라우저 호환성</div>
-                    </div>
+        <article class="content">
+            <div class="content__header">CSS flexbox</div>
+            <div class="content__item1">
+                <p>CSS3에서 처음 소개된 레이아웃모델.</p>
+                <p>이 레이아웃은 서로 다른 크기의 화면과 기기에서도 HTML 요소들이 자동으로 재정렬되어, 웹 페이지의 레이아웃을 언제나 똑같이 유지할 수 있게 해줌.</p>
+                <p><b>플렉스 박스(flex box)의 개념</b></p>
+                <ul>
+                    <li>- 플렉스 컨테이너(flex container) , 플렉스 요소(flex item)로 구성</li>
+                    <li>- 플렉스 컨테이너는 해당HTML 요소의 display 속성을 설정하는 것으로 정의 가능</li>
+                    <li>- 블록타입 => display : flex
+                        <ul>
+                            <li>- 인라인타입 => display : inline-flex</li>
+                            <li>- 플렉스 컨테이너는 반드시 하나 이상의 플렉스 요소를 포함해야 함.</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="content__item2">
+                <div class="item2__prop">display</div>
+                <div class="item2__brief"><p>HTML 요소에 대한 박스의 타입을 명시ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ</p></div>
+                <div class="item2__more">▼</div>
+            </div>
+            <div class="content__detail">
+                <div class="detail__header">
+                    <h3>display</h3>
+                </div>
+                <div class="detail__content">
+                    testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
+                </div>
+                <div class="detail__example">
+                    <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="PoqOdLw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selector-id">
+                        <span>See the Pen <a href="https://codepen.io/dev-uk/pen/PoqOdLw">
+                        CSS-Selector-id</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+                        on <a href="https://codepen.io">CodePen</a>.</span>
+                      </p>
+                      <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
                 </div>
             </div>
-            
-            <div>
-                <div class="content__box clearfix">
-                    <div class="content__box__prop">
-                        color-asdasdasdasd
-                    </div>
-                    <div class="content__box__brief">
-                        testtesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttesttest
-                    </div>
-                    <div class="content__box__detail clearfix">
-                        <div>내용 글</div>
-                        <div>예제</div>
-                        <div>브라우저 호환성</div>
-                    </div>
-                </div>
+            <div class="content__item2">
+                <div class="item2__prop">display</div>
+                <div class="item2__brief"><p>HTML 요소에 대한 박스의 타입을 명시ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ</p></div>
+                <div class="item2__more">▼</div>
+            </div>
+            <div class="content__detail">
+                
             </div>
         </article>
 
@@ -135,4 +156,8 @@
     </footer>
     
 </body>
+    <script>
+   
+    </script>
+
 </html>
