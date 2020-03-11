@@ -9,7 +9,7 @@
 - Selector
 - Transition
 - Animation
-- [Flex Box][##Flex box]
+- [Flex Box](#flex-box)
 - Grid
 
 ## Flex box
