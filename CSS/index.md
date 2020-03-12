@@ -12,7 +12,7 @@
 - [Flex Box](#flex-box)
 - Grid
 
-## Selector
+## [Selector](main/1_selector/selector.html)
 구분 | 설명 
 ---|:---:
 `전체 선택자` | HTML문서에 있는 모든 요소 선택| 
