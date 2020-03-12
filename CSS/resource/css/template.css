@@ -1,9 +1,28 @@
-
+@import url("https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic|Pridi|Arvo&display=swap");
 body{
     margin-left: 100px;
     margin-right:100px;
 }
-h2,h3,h4{font-family: 'Do Hyeon', sans-serif;}
+h1{ font-size: 39px; border-bottom: 4px solid lightslategray; padding-bottom: 13px;}
+h2{ display:inline-block; font-size: 32px; border-bottom: 3px solid limegreen; padding-bottom: 12px; margin-bottom: 20px;}
+h3{ font-size: 25px;}
+h1,h2,h3,h4{font-family: 'Do Hyeon', sans-serif;}
 p{font-family: 'Nanum Gothic', sans-serif;}
 div{font-family: 'Pridi', serif;}
 #code{margin-bottom : 150px;}
+.content{ border-left: 4px solid #2cbe4e; padding-left: 12px; margin-bottom: 50px;}
+.tit{ border-left: 4px solid darkred; padding-left: 12px;}
+/* 예제 코드에 사용*/
+.code{ 
+    background-color: aquamarine; 
+    padding-left: 10px; 
+    padding-right: 12px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 7px; 
+    font-size: 15px; 
+    color:darkslategray;
+    font-family: 'Arvo', sans-serif;
+    font-weight: bold;
+}
+
