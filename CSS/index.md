@@ -1,16 +1,37 @@
 
 # CSS 정리
 
+- Selector
 - Color
 - font
 - Table
 - Box model
 - position
-- Selector
 - Transition
 - Animation
 - [Flex Box](#flex-box)
 - Grid
+
+## Selector
+구분 | 설명 
+---|:---:|---:
+`전체 선택자` | <html>에 있는 모든 요소 선택 | 
+`요소 선택자` | | 
+`id 선택자` | | 
+`class 선택자` | | 
+`후손 선택자` | | 
+`자손 선택자` | | 
+`속성 선택자` | | 
+`동위 선택자` | | 
+`구조 선택자` | | 
+`반응 선택자` | | 
+`상태 선택자` | | 
+`속성 선택자` | | 
+`링크 선택자` | | 
+`문자 선택자` | | 
+`부정 선택자` | | 
+
+
 
 ## Flex box
 속성 | 설명 | 예제
