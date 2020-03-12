@@ -1,0 +1,9 @@
+
+body{
+    margin-left: 100px;
+    margin-right:100px;
+}
+h2,h3,h4{font-family: 'Do Hyeon', sans-serif;}
+p{font-family: 'Nanum Gothic', sans-serif;}
+div{font-family: 'Pridi', serif;}
+#code{margin-bottom : 150px;}
