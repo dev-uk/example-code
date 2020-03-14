@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic|Pridi|Arvo&display=swap");
 body{
-    margin-left: 100px;
-    margin-right:100px;
+    margin-left: 250px;
+    margin-right:250px;
 }
 h1{ font-size: 39px; border-bottom: 4px solid lightslategray; padding-bottom: 13px;}
 h2{ display:inline-block; font-size: 32px; border-bottom: 3px solid limegreen; padding-bottom: 12px; margin-bottom: 20px;}
