@@ -3,6 +3,12 @@ body{
     margin-left: 250px;
     margin-right:250px;
 }
+@media screen and (min-width: 720px) {
+    body {
+        margin-left: 100px;
+        margin-right:100px;
+    }
+}
 h1{ font-size: 39px; border-bottom: 4px solid lightslategray; padding-bottom: 13px;}
 h2{ display:inline-block; font-size: 32px; border-bottom: 3px solid limegreen; padding-bottom: 12px; margin-bottom: 20px;}
 h3{ font-size: 25px;}
@@ -25,4 +31,6 @@ div{font-family: 'Pridi', serif;}
     font-family: 'Arvo', sans-serif;
     font-weight: bold;
 }
+
+
 
