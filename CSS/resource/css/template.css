@@ -3,10 +3,22 @@ body{
     margin-left: 250px;
     margin-right:250px;
 }
+@media screen and (min-width: 1024px) {
+    body {
+        margin-left: 150px;
+        margin-right:150px;
+    }
+}
 @media screen and (min-width: 720px) {
     body {
         margin-left: 100px;
         margin-right:100px;
+    }
+}
+@media screen and (min-width: 480px) {
+    body {
+        margin-left: 40px;
+        margin-right:40px;
     }
 }
 h1{ font-size: 39px; border-bottom: 4px solid lightslategray; padding-bottom: 13px;}
