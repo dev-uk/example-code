@@ -39,10 +39,10 @@
 ## [Display](main/2_display/display.html)
 구분 | 설명 
 ---|:---:
-`block` ||
-`inline` |  |
-`inline-block` |  |
-`none` |  |
+`block` |요소를 block형태로 지정함. 해당 요소는 해당 라인의 모든 너비를 차지함. |
+`inline` |요소를 inline형태로 지정함. 해당 요소는 콘텐츠만큼의 너비와 높이만을 가짐.  |
+`inline-block` |요소를 inline-block형태로 지정함.형태는 inline이지만, display처럼 속성부여가 가능  |
+`none` |요소를 none으로 지정함.페이지 내에서 보이지 않도록 지정 |
 
 
 ## Flex box
