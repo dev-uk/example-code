@@ -5,48 +5,243 @@
     <link rel="stylesheet" type="text/css" href="../../resource/css/template.css"/>       
     <style>
 
-
-
     </style>
 </head>
 <body>
-    <h1>선택자(Selector)</h1>
+    
 
-    <h2>전체 선택자</h2>
+ 
+<nav>
+    <ul>
+        <li><a href="#selector-all">전체 선택자</a></li>
+        <li><a href="#selector-tag">태그 선택자</a></li>
+        <li><a href="#selector-id">id 선택자</a></li>
+        <li><a href="#selector-class">class 선택자</a></li>
+        <li><a href="#selector-descendant">후손 선택자</a></li>
+        <li><a href="#selector-child">자손 선택자</a></li>
+        <li><a href="#selector-group">그룹 선택자</a></li>
+        <li><a href="#">속성 선택자</a></li>
+        <li><a href="#selector-sibling">동위 선택자</a></li>
+        <li><a href="#">구조 선택자</a></li>
+        <li><a href="#">반응 선택자</a></li>
+        <li><a href="#">상태 선택자</a></li>
+        <li><a href="#">링크 선택자</a></li>
+        <li><a href="#">문자 선택자</a></li>
+        <li><a href="#">부정 선택자</a></li>
+    </ul>
+</nav>
+   
+<main>
+    <h1>선택자(Selector)</h1>
+    <h2 id="selector-all">전체 선택자</h2>
 
     <h3 class="tit">내용</h3>
     <div class="content">
-
+        <p>전체 선택자는 html 요소 전체에 스타일을 줌</p>
+        <p>body태그에 있는 요소뿐 아니라 html, head에도 적용됨</p>
+        <p><span class="properties">*</span>를 사용하여 선택</p>
     </div>
 
     <h3>Code</h3>
-    <div id="code">
+    <div id="codepen">
         <!-- 코드펜 -->
-     
-     </div>
+        <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="JjdvjXw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selector-all">
+            <span>See the Pen <a href="https://codepen.io/dev-uk/pen/JjdvjXw">
+            CSS-Selector-all</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    </div>
 
 
-     <h2>id 선택자</h2>
+    <h2 id="selector-tag">태그 선택자</h2>
 
-     <h3 class="tit">내용</h3>
-     <div class="content">
+    <h3 class="tit">내용</h3>
+    <div class="content">
+        <p>태그 선택자는 HTML 요소의 이름을 직접 선택하여 스타일을 줌</p>
+        <p><span class="properties">태그명</span>을 사용하여 선택</p>
+    </div>
+ 
+    <h3>Code</h3>
+    <div id="codepen">
+        <!-- 코드펜 -->
+        <p class="codepen" data-height="365" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="jOPxOMw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selector-tag">
+           <span>See the Pen <a href="https://codepen.io/dev-uk/pen/jOPxOMw">
+           CSS-Selector-tag</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+           on <a href="https://codepen.io">CodePen</a>.</span>
+         </p>
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    </div>
+
+
+    <h2 id="selector-id">id 선택자</h2>
+
+    <h3 class="tit">내용</h3>
+    <div class="content">
         <p>id 선택자는 HTML 요소의 id 속성을 사용하여 특정 요소를 선택</p>
         <p>요소의 id는 페이지 내에서 고유하므로 하나의 요소를 선택하는 데 사용</p>
-        <p><span class="code">#id</span> 를 사용하여 선택</p>
-     </div>
+        <p><span class="properties">#id</span> 를 사용하여 선택</p>
+    </div>
  
-     <h3>Code</h3>
-     <div id="code">
-         <!-- 코드펜 -->
-         <p class="codepen" data-height="330" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="PoqOdLw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selector-id">
-            <span>See the Pen <a href="https://codepen.io/dev-uk/pen/PoqOdLw">
-            CSS-Selector-id</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+    <h3>Code</h3>
+    <div id="codepen">
+        <!-- 코드펜 -->
+        <p class="codepen" data-height="330" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="PoqOdLw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selector-id">
+        <span>See the Pen <a href="https://codepen.io/dev-uk/pen/PoqOdLw">
+        CSS-Selector-id</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    </div>
+
+    <h2 id="selector-class">class 선택자</h2>
+
+    <h3 class="tit">내용</h3>
+    <div class="content">
+        <p>클래스 선택자는 특정 요소를 한 번에 여러개 선택</p>
+        <p><span class="properties">.class</span> 를 사용하여 선택</p>
+    </div>
+  
+    <h3>Code</h3>
+    <div id="codepen">
+        <!-- 코드펜 -->
+        <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="ExjLxNd" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selector-class">
+        <span>See the Pen <a href="https://codepen.io/dev-uk/pen/ExjLxNd">
+        CSS-Selector-class</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    </div>
+
+
+    <h2 id="selector-descendant">후손 선택자</h2>
+
+    <h3 class="tit">내용</h3>
+    <div class="content">
+        <p>후손 선택자는 해당 요소의 하위 요소중 특정 타입의 요소를 모두 선택</p>
+        <p><span class="properties">태그명 후손태그명</span>을 사용하여 선택</p>
+        <p>예) <span class="properties">div p {...}</span></p>
+    </div>
+  
+    <h3>Code</h3>
+    <div id="codepen">
+        <!-- 코드펜 -->
+        <p class="codepen" data-height="355" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="zYGjYwm" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selector-descendant">
+            <span>See the Pen <a href="https://codepen.io/dev-uk/pen/zYGjYwm">
+            CSS-Selector-descendant</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    </div>
+
+
+    <h2 id="selector-child">자식 선택자</h2>
+
+    <h3 class="tit">내용</h3>
+    <div class="content">
+        <p>자식 선택자는 해당 요소의 바로 밑에 존재하는 요소 중에서 특정타입을 선택</p>
+        <p><span class="properties">태그명>자식태그명</span>을 사용하여 선택</p>
+        <p>예) <span class="properties">div > p {...}</span></p>
+    </div>
+  
+    <h3>Code</h3>
+    <div id="codepen">
+        <!-- 코드펜 -->
+        <p class="codepen" data-height="355" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="zYGjYJe" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selector-child">
+            <span>See the Pen <a href="https://codepen.io/dev-uk/pen/zYGjYJe">
+            CSS-Selector-child</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+        </p>
+        <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    </div>
+
+
+    <h2 id="selector-group">그룹 선택자</h2>
+
+    <h3 class="tit">내용</h3>
+    <div class="content">
+        <p>그룹 선택자는 여러 선택자를 같이 사용하여 선택</p>
+        <p>여러 선택자를 쉼표(,)로 구분하여 사용</p>
+        <p>여러 요소에 같은 스타일을 줄때 사용하여 코드의 중복을 줄여줌</p>
+        <p><span class="properties">태그명,클래스명,..</span>을 사용하여 선택</p>
+        <p>예) <span class="properties">.class,h1,h2 {...}</span></p>
+    </div>
+  
+    <h3>Code</h3>
+    <div id="codepen">
+        <!-- 코드펜 -->
+        <p class="codepen" data-height="365" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="NWqMWEw" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selecotr-group">
+            <span>See the Pen <a href="https://codepen.io/dev-uk/pen/NWqMWEw">
+            CSS-Selecotr-group</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
             on <a href="https://codepen.io">CodePen</a>.</span>
           </p>
           <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-      </div>
+    </div>
 
+
+
+
+
+
+    
+
+    <h2 id="selector-sibling">동위 선택자</h2>
+    <p>동위 선택자는 동위 관계에서 뒤에 위치한 태그를 선택 </p>
+    <p>* 동위 관계 : 부모 요소가 같은 요소들</p>
+
+    <h3 class="tit">일반 동위 선택자</h3>
+    <div class="content">
+        <p>일반 동위 선택자는 동위 관계의 요소중 해당 요소보다 뒤에 존재하는 특정 타입의 요소를 선택 </p>
+        <p><span class="properties">태그명~태그명</span>을 사용하여 선택</p>
+        <p>예) <span class="properties">div ~ p {...}</span></p>
+    </div>
+
+    <h3>Code</h3>
+    <div id="codepen">
+        <!-- 코드펜 -->
+        <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="RwPywvR" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selector-gen_sibling">
+            <span>See the Pen <a href="https://codepen.io/dev-uk/pen/RwPywvR">
+            CSS-Selector-gen_sibling</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    </div>
+
+    <h3 class="tit">인접 동위 선택자</h3>
+    <div class="content">
+        <p>인접 동위 선택자는 동위 관계의 요소중 바로 뒤에 존재하는 특정 타입의 요소를 선택 </p>
+        <p><span class="properties">태그명+태그명</span>을 사용하여 선택</p>
+        <p>예) <span class="properties">div + p {...}</span></p>
+    </div>
+
+    <h3>Code</h3>
+    <div id="codepen">
+        <!-- 코드펜 -->
+        <p class="codepen" data-height="265" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="QWbrWom" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Selector-adj_sibling">
+            <span>See the Pen <a href="https://codepen.io/dev-uk/pen/QWbrWom">
+            CSS-Selector-adj_sibling</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+    </div>
+
+
+
+</main>
      
 
 </body>
 </html>
+<h2 id="">그룹 선택자</h2>
+
+<h3 class="tit">내용</h3>
+<div class="content">
+    <p>자식 선택자는 해당 요소의 바로 밑에 존재하는 요소 중에서 특정타입을 선택</p>
+    <p><span class="properties">태그명>자식태그명</span>을 사용하여 선택</p>
+    <p>예) <span class="properties">div > p {...}</span></p>
+</div>
+
+<h3>Code</h3>
+<div id="codepen">
+    <!-- 코드펜 -->
+</div>
