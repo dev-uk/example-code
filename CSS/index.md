@@ -35,7 +35,7 @@
 적용 우선순위
 태그 스타일 => class 스타일 => id 스타일 => 인라인 스타일 => !important
 
-## [Display](main/2_diplay/display.html)
+## [Display](main/2_display/display.html)
 구분 | 설명 
 ---|:---:
 `block` ||
