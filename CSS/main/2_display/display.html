@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link rel="stylesheet" type="text/css" href="../../resource/css/template.css"/>       
+    <style>
+
+
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#block">block</a></li>
+            <li><a href="#inline">inline</a></li>
+            <li><a href="#inline-block">inline-block</a></li>
+            <li><a href="#none">none</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>display</h1>
+        <p>display 속성은 페이지 내에 요소가 어떻게 보일 것인가를 지정하는 중요한 속성
+        </p>
+        <h2 id="block">블록(block)</h2>
+
+        <h3 class="tit">내용</h3>
+        <div class="content">
+            <p>display 속성값이 block인 요소는 언제나 새로운 라인에서 시작하며, 해당 라인의 모든 너비를 차지함</p>
+            <p><span class="properties">width</span> <span class="properties">height</span> 속성 지정 가능</p>
+            
+            <p>HTML 블럭요소 : 
+                <span class="properties">div</span>
+                <span class="properties">h1~h6</span>
+                <span class="properties">p</span>
+                <span class="properties">ul</span>
+                <span class="properties">ol</span>
+                <span class="properties">form</span>
+                <span class="properties">article</span>
+                <span class="properties">aside</span>
+                <span class="properties">dd</span>
+                <span class="properties">dl</span>
+                <span class="properties">header</span>
+                <span class="properties">...</span>
+                
+            </p>
+        </div>
+
+        <h3 class="tit">Code</h3>
+        <div id="codepen">
+            <!-- 코드펜 -->
+            <p class="codepen" data-height="465" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="YzXLPXG" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Display-block">
+                <span>See the Pen <a href="https://codepen.io/dev-uk/pen/YzXLPXG">
+                CSS-Display-block</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+
+
+        <h2 id="inline">인라인(inline)</h2>
+
+        <h3 class="tit">내용</h3>
+        <div class="content">
+            <p>display 속성값이 inline인 요소는 새로운 라인에서 시작하지않음.</p>
+            <p>요소의 너비도 요소의 내용 만큼만 차지함</p>
+            <p><span class="properties">margin</span>은 top, bottom은 적용 불가</p>
+            <p><span class="properties">width</span> <span class="properties">height</span> 속성 지정 불가</p>
+            
+            <p>HTML 인라인요소 : 
+                <span class="properties">span</span>
+                <span class="properties">a</span>
+                <span class="properties">img</span>
+                <span class="properties">b</span>
+                <span class="properties">input</span>
+                <span class="properties">textarea</span>
+                <span class="properties">label</span>
+                <span class="properties">button</span>
+                <span class="properties">...</span>
+            </p>
+        </div>
+
+        <h3 class="tit">Code</h3>
+        <div id="codepen">
+            <!-- 코드펜 -->
+            <p class="codepen" data-height="465" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="poJVvyQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Display-inline">
+                <span>See the Pen <a href="https://codepen.io/dev-uk/pen/poJVvyQ">
+                CSS-Display-inline</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    
+
+
+        <h2 id="inline-block">인라인-블록(inline-block)</h2>
+
+        <h3 class="tit">내용</h3>
+        <div class="content">
+            <p>display 속성값이 inline-block인 요소는 인라인 요소처럼 동작하지만 해당 요소 내부에서는 블록 요소처럼 동작함 </p>
+            <p><span class="properties">width</span> <span class="properties">height</span> 속성 지정 가능</p>
+        </div>
+
+        <h3 class="tit">Code</h3>
+        <div id="codepen">
+            <!-- 코드펜 -->
+            <p class="codepen" data-height="465" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="poJVvyQ" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Display-inline">
+                <span>See the Pen <a href="https://codepen.io/dev-uk/pen/poJVvyQ">
+                CSS-Display-inline</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+    
+
+        <h2 id="none">none</h2>
+
+        <h3 class="tit">내용</h3>
+        <div class="content">
+            <p>display 속성값이 none인 요소는 렌더링 하지 않음.</p>
+            <p>페이지 내에 보이지 않도록 지정.</p>
+        </div>
+
+        <h3 class="tit">Code</h3>
+        <div id="codepen">
+            <!-- 코드펜 -->
+            <p class="codepen" data-height="365" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="rNVvawB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="rNVvawB">
+                <span>See the Pen <a href="https://codepen.io/dev-uk/pen/rNVvawB">
+                rNVvawB</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+
+        <h2 id="reference">reference</h2>
+
+        <h3 class="tit">참조</h3>
+        <div class="content">
+            <p>
+                <a href="https://ofcourse.kr/css-course/display-%EC%86%8D%EC%84%B1" target="_blank">
+                    https://ofcourse.kr/css-course/display-%EC%86%8D%EC%84%B1
+                </a>
+            </p>
+            <p>
+                <a href="https://www.w3schools.com/css/css_display_visibility.asp" target="_blank">
+                    https://www.w3schools.com/css/css_display_visibility.asp
+                </a>
+            </p>
+            <p>
+                <a href="http://tcpschool.com/css/css_position_display" target="_blank">
+                    http://tcpschool.com/css/css_position_display
+                </a>
+            </p>
+        </div>
+
+
+    </main>
+
+
+</body>
+</html>

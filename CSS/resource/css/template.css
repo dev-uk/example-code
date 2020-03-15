@@ -32,7 +32,7 @@ h1{ font-size: 39px; border-bottom: 4px solid lightslategray; padding-bottom: 13
 h2{ display:inline-block; font-size: 32px; border-bottom: 3px solid limegreen; padding-bottom: 12px; margin-bottom: 20px;}
 h3{ font-size: 25px;}
 h1,h2,h3,h4{font-family: 'Do Hyeon', sans-serif;}
-p{font-family: 'Nanum Gothic', sans-serif;}
+p{font-family: 'Nanum Gothic', sans-serif; line-height: 28px;}
 div{font-family: 'Pridi', serif;}
 #codepen{margin-bottom : 150px;}
 .content{ border-left: 4px solid #2cbe4e; padding-left: 12px; margin-bottom: 50px;}
