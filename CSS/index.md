@@ -2,6 +2,7 @@
 # CSS 정리
 
 - [Selector](#Selector)
+- [Display](#Display)
 - Color
 - font
 - Table
@@ -33,6 +34,14 @@
 
 적용 우선순위
 태그 스타일 => class 스타일 => id 스타일 => 인라인 스타일 => !important
+
+## [Display](main/2_diplay/display.html)
+구분 | 설명 
+---|:---:
+`block` ||
+`inline` |  |
+`inline-block` |  |
+`none` |  |
 
 
 ## Flex box
