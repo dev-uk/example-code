@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <link rel="stylesheet" type="text/css" href="../../resource/css/template.css"/>       
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="#static">static</a></li>
+            <li><a href="#relative">relative</a></li>
+            <li><a href="#fixed">fixed</a></li>
+            <li><a href="#absolute">absolute</a></li>
+            <li><a href="#sticky">sticky</a></li>
+            <li><a href="#inherit">inherit</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>position</h1>
+        <p>position 속성은 HTML 요소가 페이지에서 보여질 위치를 지정하는 속성</p>
+        <p><span class="properties">top</span> <span class="properties">bottom</span> <span class="properties">left</span> <span class="properties">right</span> 속성을 사용하여 배치</p>
+        <p><span class="properties">position</span>를 설정해야 속성이 작동함.</p>
+        
+        <p class="codepen" data-height="465" data-theme-id="dark" data-default-tab="result" data-user="dev-uk" data-slug-hash="ZEGoroB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Position">
+            <span>See the Pen <a href="https://codepen.io/dev-uk/pen/ZEGoroB">
+            CSS-Position</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+            on <a href="https://codepen.io">CodePen</a>.</span>
+          </p>
+          <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+
+        
+        <h2 id="static">static</h2>
+
+        <h3 class="tit">내용</h3>
+        <div class="content">
+            <p>static은 position 속성의 기본 값.</p>
+            <p>기본적으로 정적 위치에 있으며, 항상 페이지에서 정상적인 흐름에 따라 배치</p>
+            <p><span class="properties">top</span> <span class="properties">bottom</span> <span class="properties">left</span> <span class="properties">right</span> 속성의 영향을 받지 않음</p>
+        </div>
+
+        <h3 class="tit">Code</h3>
+        <div id="codepen">
+            <!-- 코드펜 -->
+            <p class="codepen" data-height="365" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="qBdYpOE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Position-static">
+                <span>See the Pen <a href="https://codepen.io/dev-uk/pen/qBdYpOE">
+                CSS-Position-static</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+
+        <h2 id="relative">relative</h2>
+
+        <h3 class="tit">내용</h3>
+        <div class="content">
+            <p>relative는 원래 위치를 기준으로 배치</p>
+            <p>
+                <span class="properties">top</span>
+                <span class="properties">bottom</span>
+                <span class="properties">left</span>
+                <span class="properties">right</span>
+                속성을 설정하여 원래 위치에서 멀어지도록 조정.
+            </p>
+        </div>
+
+        <h3 class="tit">Code</h3>
+        <div id="codepen">
+            <!-- 코드펜 -->
+            <p class="codepen" data-height="400" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="RwPyxLg" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Position-relative">
+                <span>See the Pen <a href="https://codepen.io/dev-uk/pen/RwPyxLg">
+                CSS-Position-relative</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+
+
+        <h2 id="fixed">fixed</h2>
+
+        <h3 class="tit">내용</h3>
+        <div class="content">
+            <p>fiexd는 뷰포트를 기준으로 배치되므로 페이지가 스크롤 되더라도 항상 같은 위치에 유지</p>
+            <p>block 레벨의 속성을 가진 태그는 inline-block으로 변경됨.</p>
+            <p><span class="properties">top</span> <span class="properties">bottom</span> <span class="properties">left</span> <span class="properties">right</span> 속성을 사용하여 배치 </p>
+        </div>
+
+        <h3 class="tit">Code</h3>
+        <div id="codepen">
+            <!-- 코드펜 -->
+            <p class="codepen" data-height="430" data-theme-id="dark" data-default-tab="css,result" data-user="dev-uk" data-slug-hash="WNvJdJa" style="height: 469px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Position-fixed">
+                <span>See the Pen <a href="https://codepen.io/dev-uk/pen/WNvJdJa">
+                CSS-Position-fixed</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+
+
+        <h2 id="absolute">absolute</h2>
+
+        <h3 class="tit">내용</h3>
+        <div class="content">
+            <p>absolute는 뷰포트를 기준으로 배치 하는것과 비슷하게 동작하나, 위치가 설정된 조상요소를 기준으로 위치를 설정</p>
+            <p>위치가 설정된 조상 요소가 없다면 HTML 문서의 body 요소를 기준으로 위치를 설정</p>
+        </div>
+
+        <h3 class="tit">Code</h3>
+        <div id="codepen">
+            <!-- 코드펜 -->
+            <p class="codepen" data-height="452" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="ExjLQjN" style="height: 352px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Position-absolute">
+                <span>See the Pen <a href="https://codepen.io/dev-uk/pen/ExjLQjN">
+                CSS-Position-absolute</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+            </p>
+            <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+
+
+        <h2 id="sticky">sticky</h2>
+
+        <h3 class="tit">내용</h3>
+        <div class="content">
+            <p>sticky는 사용자의 스크롤 위치를 기준으로 배치</p>
+            <p>* internet Explorer, Edge 15 및 이전 버전은 sticky 지원 X</p>
+            <p>* Safari에는 -webkit- 접두사를 사용</p>
+            <p><span class="properties">top</span> <span class="properties">bottom</span> <span class="properties">left</span> <span class="properties">right</span> 속성을 사용하여 배치 </p>
+        </div>
+
+        <h3 class="tit">Code</h3>
+        <div id="codepen">
+            <!-- 코드펜 -->
+
+            <p class="codepen" data-height="465" data-theme-id="dark" data-default-tab="html,result" data-user="dev-uk" data-slug-hash="BaNxYRE" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Position-sticky">
+                <span>See the Pen <a href="https://codepen.io/dev-uk/pen/BaNxYRE">
+                CSS-Position-sticky</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
+                on <a href="https://codepen.io">CodePen</a>.</span>
+              </p>
+              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <h2 id="reference">reference</h2>
+
+        <h3 class="tit">참조</h3>
+        <div class="content">
+            <p>
+                <a href="https://www.w3schools.com/css/css_positioning.asp">
+                    https://www.w3schools.com/css/css_positioning.asp
+                </a>
+            </p>
+            <p>
+                <a href="http://tcpschool.com/css/css_position_position">
+                    http://tcpschool.com/css/css_position_position
+                </a>
+            </p>
+            <p>
+                <a href="https://ofcourse.kr/css-course/position-%EC%86%8D%EC%84%B1">
+                    https://ofcourse.kr/css-course/position-%EC%86%8D%EC%84%B1
+                </a>
+            </p>
+            <p>
+                <a href="https://tech.lezhin.com/2019/03/20/css-sticky">
+                    https://tech.lezhin.com/2019/03/20/css-sticky
+                </a>
+            </p>
+        </div>
+
+
+    </main>
+
+
+</body>
+</html>
