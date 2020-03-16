@@ -3,6 +3,7 @@
 
 - [Selector](#Selector)
 - [Display](#Display)
+- [position](#Position)
 - Color
 - font
 - Table
@@ -36,13 +37,22 @@
 태그 스타일 => class 스타일 => id 스타일 => 인라인 스타일 => !important
 
 ## [Display](main/2_display/display.html)
-구분 | 설명 
+HTML 요소가 페이지에서 어떻게 보여질지 지정하는 속성
+속성 | 설명 
 ---|:---:
 `block` |요소를 block형태로 지정함. 해당 요소는 해당 라인의 모든 너비를 차지함. |
 `inline` |요소를 inline형태로 지정함. 해당 요소는 콘텐츠만큼의 너비와 높이만을 가짐.  |
 `inline-block` |요소를 inline-block형태로 지정함.형태는 inline이지만, display처럼 속성부여가 가능  |
 `none` |요소를 none으로 지정함.페이지 내에서 보이지 않도록 지정 |
 
+## [Position](main/3_position/position.html)
+HTML 요소가 페이지에서 보여질 위치를 지정하는 속성
+속성 | 설명
+`static` |정적 위치 지정방식. postion 속성의 기본 설정값.|
+`relative` |상대 위치 지정방식. |
+`fixed` |고정 위치 지정방식.|
+`absolute` |절대 위치 지정방식.|
+`sticky` |사용자의 스크롤 위치를 기준으로 지정.|
 
 ## Flex box
 속성 | 설명 | 예제
