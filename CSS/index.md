@@ -48,6 +48,7 @@ HTML 요소가 페이지에서 어떻게 보여질지 지정하는 속성
 ## [Position](main/3_position/position.html)
 HTML 요소가 페이지에서 보여질 위치를 지정하는 속성
 속성 | 설명
+---|:---:
 `static` |정적 위치 지정방식. postion 속성의 기본 설정값.|
 `relative` |상대 위치 지정방식. |
 `fixed` |고정 위치 지정방식.|
