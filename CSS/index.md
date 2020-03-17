@@ -1,14 +1,11 @@
 
 # CSS 정리
 
-- [Selector](#Selector)
-- [Display](#Display)
-- [position](#Position)
-- [Float&Clear](#Float&clear)
-- Color
-- font
+- [Selector](#selector)
+- [Display](#display)
+- [position](#position)
+- [Float&Clear](#float&clear)
 - Table
-- Box model
 - Transition
 - Animation
 - [Flex Box](#flex-box)
