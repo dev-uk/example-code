@@ -4,11 +4,11 @@
 - [Selector](#Selector)
 - [Display](#Display)
 - [position](#Position)
+- [Float&Clear](#Float&clear)
 - Color
 - font
 - Table
 - Box model
-- position
 - Transition
 - Animation
 - [Flex Box](#flex-box)
@@ -38,7 +38,7 @@
 
 ## [Display](main/2_display/display.html)
 HTML 요소가 페이지에서 어떻게 보여질지 지정하는 속성
-속성 | 설명 
+속성값 | 설명 
 ---|:---:
 `block` |요소를 block형태로 지정함. 해당 요소는 해당 라인의 모든 너비를 차지함. |
 `inline` |요소를 inline형태로 지정함. 해당 요소는 콘텐츠만큼의 너비와 높이만을 가짐.  |
@@ -47,13 +47,30 @@ HTML 요소가 페이지에서 어떻게 보여질지 지정하는 속성
 
 ## [Position](main/3_position/position.html)
 HTML 요소가 페이지에서 보여질 위치를 지정하는 속성
-속성 | 설명
+속성값 | 설명
 ---|:---:
 `static` |정적 위치 지정방식. postion 속성의 기본 설정값.|
 `relative` |상대 위치 지정방식. |
 `fixed` |고정 위치 지정방식.|
 `absolute` |절대 위치 지정방식.|
 `sticky` |사용자의 스크롤 위치를 기준으로 지정.|
+
+## [Float&clear](main/4_float/float.html)
+
+float
+속성값 | 설명
+---|:---:
+`left`||
+`right`||
+`none`||
+
+clear
+속성값 | 설명
+---|:---:
+`left`||
+`right`||
+`none`||
+`both`||
 
 ## Flex box
 속성 | 설명 | 예제
