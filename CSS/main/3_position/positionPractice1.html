@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        .img{
+            width:100%;
+            height: 100%;
+            opacity: 0.5;
+        }
+        .relative{
+            position:relative;
+        }
+        .item{
+            color : black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .top-left{
+            position:absolute;
+            top:0px;
+        }
+        .top-right{
+            position:absolute;
+            top:0;
+            right: 0;
+        }
+        .bottom-left{
+            position:absolute;
+            bottom:0;
+        }
+        .bottom-right{
+            position:absolute;
+            bottom:0;
+            right: 0;
+        }
+        .center {
+           position: absolute;;
+           top:50%;
+           width: 100%;
+           text-align: center;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <h1>position 연습1</h1>
+    <div class="relative">
+        <img class="img" src="../../resource\image\vietnam-4916421_1280.jpg"/>
+        <div class="top-left item">top-left</div>
+        <div class="top-right item">top-right</div>
+        <div class="bottom-left item">bottom-left</div>
+        <div class="bottom-right item">bottom-right</div>
+        <div class="center item">center</div>
+    </div>  
+</body>
+</html>

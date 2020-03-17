@@ -4,7 +4,9 @@
 <head>
     <link rel="stylesheet" type="text/css" href="../../resource/css/template.css"/>       
     <style>
-
+        .test{
+            border-top : 3px solid darkred;
+        }
     </style>
 </head>
 
@@ -17,14 +19,20 @@
             <li><a href="#absolute">absolute</a></li>
             <li><a href="#sticky">sticky</a></li>
             <li><a href="#inherit">inherit</a></li>
+            <li><a href="#position-properties">Position properties</a></li>
+            <li class="test"><a href="#position-practice">practice</a></li>
         </ul>
     </nav>
     <main>
         <h1>position</h1>
-        <p>position 속성은 HTML 요소가 페이지에서 보여질 위치를 지정하는 속성</p>
+        <p>position은 HTML 요소가 페이지에서 보여질 위치를 지정하는 속성</p>
         <p><span class="properties">top</span> <span class="properties">bottom</span> <span class="properties">left</span> <span class="properties">right</span> 속성을 사용하여 배치</p>
         <p><span class="properties">position</span>를 설정해야 속성이 작동함.</p>
-        
+        <p>static 이외의 다른 값들은 어떤 기준에 의해 요소의 상대적인 위치를 설정함</p>
+        <p>- relative(상대 위치) : 요소의 기준 위치에서 속성 값을 지정하여 위치</p>
+        <p>- fixed(고정 위치) : 뷰포트(viewport)에 상대적으로 위치</p>
+        <p>- absolute(절대 위치) : 위치가 설정된 바로 위의 조상요소에 상대적으로 위치</p>
+
         <p class="codepen" data-height="465" data-theme-id="dark" data-default-tab="result" data-user="dev-uk" data-slug-hash="ZEGoroB" style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;" data-pen-title="CSS-Position">
             <span>See the Pen <a href="https://codepen.io/dev-uk/pen/ZEGoroB">
             CSS-Position</a> by dev-uk (<a href="https://codepen.io/dev-uk">@dev-uk</a>)
@@ -143,16 +151,22 @@
         </div>
 
 
+        <h2 id="position-properties">Position 속성</h2>
+        
+        <div class="content">
+            <p><span class="properties">bottom</span> : 요소의 아래에 여백을 설정함 </p>
+            <p><span class="properties">top</span> : 요소의 위에 여백을 설정함</p>
+            <p><span class="properties">left</span> : 요소의 왼쪽에 여백을 설정함</p>
+            <p><span class="properties">right</span> : 요소의 오른쪽에 여백을 설정함</p>
+            <p><span class="properties">z-index</span> : 요소의 스택 순서를 설정함</p>
+            <p><span class="properties">clip</span> : absolute의 속성값을 가진 요소를 자름</p>
+        </div>
 
-
-
-
-
-
-
-
-
-
+        <h2 id="position-practice">position 연습</h2>
+        <div class="content">
+            <p><a href="positionPractice1.html" target="_blank">연습1(absolute, relative)</a></p>
+            <p><a href="positionPractice2.html" target="_blank">연습2(clip)</a></p>
+        </div>
 
 
 

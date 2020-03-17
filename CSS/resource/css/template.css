@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Do+Hyeon|Nanum+Gothic|Pridi|Arvo&display=swap");
+
 main{
     margin-left: 170px;
 }
@@ -26,7 +27,15 @@ nav a:hover{
     cursor: pointer;
     color: whitesmoke;
 }
-
+ul{
+    list-style: none;
+    padding: 0px;
+}
+li{
+    padding-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
 
 h1{ font-size: 39px; border-bottom: 4px solid lightslategray; padding-bottom: 13px;}
 h2{ display:inline-block; font-size: 32px; border-bottom: 3px solid limegreen; padding-bottom: 12px; margin-bottom: 20px;}
@@ -75,5 +84,11 @@ div{font-family: 'Pridi', serif;}
 
 }
 @media (min-width:320px) and (max-width:479px){
-
+    main {
+        margin-left:20px;
+        margin-right:20px;
+    }
+    nav {
+        display:none;
+    }
 }
