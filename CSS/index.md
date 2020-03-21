@@ -5,9 +5,6 @@
 - [Display](#display)
 - [position](#position)
 - [Float&Clear](#float&clear)
-- Table
-- Transition
-- Animation
 - [Flex Box](#flex-box)
 - Grid
 
