@@ -54,12 +54,13 @@ HTML 요소가 페이지에서 보여질 위치를 지정하는 속성
 
 ## [Float&clear](main/4_float/float.html)
 
-float
+Float
+HTML 요소가 일반적인 흐름에서 벗어나 떠있게 보여지도록 하는 속성
 속성값 | 설명
 ---|:---:
-`left`||
-`right`||
-`none`||
+`left`|HTML 요소를 왼쪽에 부유하도록 지정|
+`right`|HTML 요소를 오른쪽에 부유하도록 지정|
+`none`|기본값. 요소를 부유하도록 하지 않음|
 
 clear
 속성값 | 설명
