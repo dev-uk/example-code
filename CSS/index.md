@@ -70,7 +70,7 @@ clear
 `none`||
 `both`||
 
-## Flex box
+## Flex box(main/5_flexBox/flexBox.html)
 속성 | 설명 
 ---|:---:
 `display`        | HTML 요소에 대한 박스타입을 명시 | 
