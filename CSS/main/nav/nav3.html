@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0;
+      }
+      li {
+        padding: 0;
+        list-style: none;
+      }
+      a {
+        text-decoration: none;
+        color: aliceblue;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        background-color: #6a1b9a;
+        align-items: center;
+        padding: 8px 24px;
+      }
+
+      .navbar__menu {
+        display: flex;
+        font-size: 24px;
+        color: aliceblue;
+      }
+
+      .navbar__submenu {
+        display: none;
+      }
+
+      .navbar__title {
+        font-size: 32px;
+        color: aliceblue;
+      }
+
+      .navbar__menu > li {
+        padding: 8px 12px;
+      }
+      .navbar__menu > li:hover {
+        cursor: pointer;
+      }
+
+      .navbar__submenu.active {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__title">Title</div>
+      <ul class="navbar__menu">
+        <li><a href="">메뉴1</a></li>
+        <li class="navbar__menu__dropdown">
+          메뉴2
+        </li>
+        <li><a href="">메뉴3</a></li>
+        <li><a href="">메뉴4</a></li>
+      </ul>
+      <ul class="navbar__submenu">
+        <li>서브1</li>
+        <li>서브2</li>
+        <li>서브3</li>
+      </ul>
+    </nav>
+  </body>
+  <script>
+    const toggleDropBtn = document.querySelector(".navbar__menu__dropdown");
+    const submenu = document.querySelector(".navbar__submenu");
+
+    toggleDropBtn.addEventListener("click", () => {
+      submenu.classList.toggle("active");
+    });
+  </script>
+</html>

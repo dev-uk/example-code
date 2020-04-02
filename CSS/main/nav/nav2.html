@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <script src="main.js" defer></script>
+    <style>
+      body {
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #5e35b1;
+        padding: 8px 12px;
+      }
+      .navbar__logo {
+        font-size: 24px;
+        color: white;
+      }
+
+      .navbar__menu {
+        display: flex;
+        list-style: none;
+        padding-left: 0;
+      }
+
+      .navbar__menu li {
+        padding: 8px 12px;
+      }
+
+      .navbar__sns {
+        display: flex;
+        list-style: none;
+        color: white;
+      }
+      .navbar__sns li {
+        padding: 8px 12px;
+      }
+
+      .navbar__menu li:hover {
+        background-color: orange;
+        border-radius: 4px;
+      }
+
+      .navbar__toggleBtn {
+        display: none;
+        position: absolute;
+        right: 32px;
+        font-size: 24px;
+      }
+
+      @media screen and (max-width: 768px) {
+        .navbar {
+          flex-direction: column;
+          align-items: flex-start;
+          padding: 8px 24px;
+        }
+        .navbar__menu {
+          display: none;
+          flex-direction: column;
+          align-items: center;
+          width: 100%;
+        }
+
+        .navbar__menu li {
+          width: 100%;
+          text-align: center;
+        }
+
+        .navbar__sns {
+          display: none;
+          justify-content: center;
+          width: 100%;
+          padding-left: 0;
+        }
+        .navbar__toggleBtn {
+          display: block;
+        }
+
+        .navbar__menu.active,
+        .navbar__sns.active {
+          display: flex;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar__logo">
+        <i class="fab fa-angrycreative"></i>
+        <a href="" class="title">Programmer uk</a>
+      </div>
+      <ul class="navbar__menu">
+        <li><a href="">HOME</a></li>
+        <li><a href="">Gallery</a></li>
+        <li><a href="">Weddings</a></li>
+        <li><a href="">FAQ</a></li>
+        <li><a href="">Bookings</a></li>
+      </ul>
+
+      <ul class="navbar__sns">
+        <li><i class="fab fa-twitter-square"></i></li>
+        <li><i class="fab fa-facebook-square"></i></li>
+      </ul>
+      <a href="#" class="navbar__toggleBtn">
+        <i class="fas fa-bars"></i>
+      </a>
+    </nav>
+  </body>
+</html>

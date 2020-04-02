@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="https://use.fontawesome.com/releases/v5.2.0/js/all.js"></script>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style: none;
+        display: inline-block;
+      }
+      p {
+        display: inline-block;
+      }
+      nav {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        background: #7b1fa2;
+        height: 10vh;
+        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      .item {
+        color: aliceblue;
+      }
+      .list {
+        display: flex;
+      }
+      .list--item {
+        font-size: 1.5rem;
+        padding-left: 1.5vw;
+        padding-right: 1.5vw;
+        display: inline-block;
+        text-align: center;
+      }
+      .menu {
+        display: none;
+      }
+      @media screen and (max-width: 720px) {
+        .menu {
+          display: inline-block;
+        }
+        nav {
+          flex-flow: column;
+          height: 50%;
+        }
+        .list--item {
+          display: block;
+        }
+        .header {
+          display: flex;
+          width: 100vw;
+          justify-content: space-between;
+        }
+        .logo,
+        .menu {
+          padding: 10px;
+          font-size: 20px;
+        }
+        nav > .item {
+          margin-bottom: 1.5em;
+        }
+        .sns {
+          border-top: solid 3px white;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="header item">
+        <p class="logo"><i class="fab fa-angrycreative"></i> Programmer uk</p>
+        <i class="menu fas fa-bars"></i>
+      </div>
+      <div class="list item">
+        <ul>
+          <li class="list--item">HTML</li>
+          <li class="list--item">CSS</li>
+          <li class="list--item">JS</li>
+          <li class="list--item">React</li>
+        </ul>
+      </div>
+      <div class="sns item">
+        <ul>
+          <li><i class="fab fa-twitter-square"></i></li>
+          <li><i class="fab fa-facebook-square"></i></li>
+        </ul>
+      </div>
+    </nav>
+  </body>
+</html>
